@@ -1,57 +1,11 @@
-# Project Name
+# AzSearchGenerator
+Website to generate search apps from Azure Search index definitions using AzSearch.js
 
-(short, 1-3 sentenced, description of the project)
+[See it live in action](http://azsearchstore.azurewebsites.net/azsearchgenerator/index.html)
 
-## Features
+## Installation & running
+* ```npm install```
+* ```npm run devpack``` (runs webpack debug configuration)
+* ```npm run prodpack``` (runs webpack prod configuration)
 
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+After bundling you should be able to open the index.html file and see website load.
